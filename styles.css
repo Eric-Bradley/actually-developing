@@ -1,0 +1,46 @@
+/* body {
+    background-color: lightslategray;
+} */
+
+#main_container {
+    background-color: rgb(198, 210, 223);
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 20px;
+    box-shadow: 0 0 15px rgb(78, 78, 78);
+    font-family: 'Oswald', sans-serif;
+}
+
+#top_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#top_container img {
+    border-radius: 15px;
+    box-shadow: 0 0 15px darkgray;
+}
+
+#top_container h1 {
+    font-size: 40px;
+}
+
+#top_container p {
+    font-size: 24px;
+}
+
+.highlight {
+  color: red;   /* or any color you want */
+  font-weight: bold; /* optional */
+}
+
+#main_container ul {
+    font-size: 20px;
+}
+
+#main_container ul li {
+    margin-bottom: 5px;
+}
