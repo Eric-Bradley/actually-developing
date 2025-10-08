@@ -1,16 +1,13 @@
-/* body {
-    background-color: lightslategray;
-} */
+body {
+    background-color: rgba(247, 167, 101, 0.185);
+}
 
 #main_container {
-    background-color: rgb(198, 210, 223);
-    border: 2px solid black;
     border-radius: 15px;
     margin-top: 2%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 32%;
+    margin-right: 32%;
     padding: 20px;
-    box-shadow: 0 0 15px rgb(78, 78, 78);
     font-family: 'Oswald', sans-serif;
 }
 
@@ -25,11 +22,13 @@
 }
 
 #top_container h1 {
-    font-size: 40px;
+    font-family: "Brush Script MT", "Comic Sans MS", cursive;
+    font-size: 50px;
 }
 
 #top_container p {
     font-size: 24px;
+    font-family: serif;
 }
 
 .highlight {
@@ -39,8 +38,36 @@
 
 #main_container ul {
     font-size: 20px;
+    font-family: serif;
 }
 
 #main_container ul li {
     margin-bottom: 5px;
+}
+
+#main_container h2 {
+    text-align: center;
+    font-family: Bookman, URW Bookman L, serif;
+    font-size: 36px;
+}
+
+#main_container h3 {
+    text-align: center;
+    font-family: Bookman, URW Bookman L, serif;
+    font-size: 30px;
+}
+
+#main_container ol {
+    font-size: 20px;
+    font-family: serif;
+    
+}
+
+#main_container ol li {
+    margin-bottom: 15px;
+}
+
+#main_container ol li::marker {
+  color: red;
+  font-weight: bold;
 }
